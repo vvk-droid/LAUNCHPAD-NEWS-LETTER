@@ -1,1 +1,126 @@
+main {
+    background-color: #eaeef3;
+    padding: 20px;
+    text-align: center;
+}
+
+body, * {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+article {
+    margin: 3% auto;
+    background-color: rgb(21, 5, 5);
+    padding: 2%;
+    border-radius: 8px;
+    max-width: 800px;
+}
+
+nav {
+    background-color: #2b1616;
+    padding: 20px;
+}
+
+nav ul {
+    gap: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: rgb(81, 58, 58);
+    list-style: none;
+}
+
+nav ul li {
+    cursor: pointer;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 26px;
+    color: #f5f0ec;
+    margin: 20px 0;
+}
+
+p {
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #dfcece;
+}
+
+.action {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button {
+    margin-top: 20px;
+}
+
+button {
+    background-color: #74727d;
+    font-size: 22px;
+    color: white;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgba(237, 232, 232, 0.5);
+}
+
+#road-map ul {
+    text-align: left;
+    padding: 0;
+}
+
+#road-map ul li {
+    font-size: 22px;
+    line-height: 1.5;
+    margin-left: 2%;
+    list-style: none;
+    color: #eaeef3;
+}
+
+.update {
+    border: 1px solid #817870;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.final {
+    text-align: center;
+    font-size: 18px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    background-color: #121010;
+    color: white;
+    padding: 20px;
+}
+
+footer p {
+    color: white;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    padding: 10px 0;
+    margin-left: 20px;
+}
 
